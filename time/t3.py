@@ -1,0 +1,10 @@
+# f = open("D:\\python3.7\\web_auto\\time\\text.txt","r")
+# fp = f.read()
+# print(fp)
+# f.close()
+# f1 = open("D:\\python3.7\\web_auto\\time\\text.txt","a")
+# f1.write("\nhao456")
+# f1.close()
+with open("D:\\python3.7\\web_auto\\time\\text.txt","r") as fp:
+    a = fp.read()
+    print(a)
